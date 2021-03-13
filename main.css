@@ -1,0 +1,189 @@
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #99CCFF;
+    text-decoration: none
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.navbar {
+    background-color: #99CCFF;
+}
+
+.header {
+    text-align: center;
+    color: #99CCFF;
+}
+
+.header .title {
+    font-size: 24px;
+}
+
+.header .fa {
+    color: #a3a3a4;
+    font-size: 16px
+}
+
+.header .fa-search {
+    position: absolute;
+    right: 10px;
+    top: 18px
+}
+
+.header .search-wraper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 680px;
+    margin-top: 30px;
+    margin-bottom: 20px
+}
+
+.header .form-group {
+    position: relative;
+}
+
+.header .search {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+    padding: 13px 30px;
+    border-radius: 0;
+    height: auto;
+    text-align: center;
+    border-color: transparent
+}
+
+.header .search::-ms-clear {
+    display: none
+}
+
+.header .search:focus {
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6)
+}
+
+.header .search+.fa.onX {
+    cursor: pointer
+}
+
+main {
+    min-height: 350px;
+}
+
+.pack a {
+    color: #aaa;
+}
+
+.pack .title a {
+    color: #000000;
+}
+
+.pack .title a:focus,
+.pack .title a:hover {
+    color: #99CCFF;
+    text-decoration: none
+}
+
+.pack title a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.pack a:focus,
+.pack a:hover {
+    color: #99CCFF;
+    text-decoration: none
+}
+
+.pack a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #99CCFF;
+    color: #ffffff;
+}
+
+.header .docTitle {
+    font-size: 40px;
+}
+
+.apiInfo {
+    font-size: 12px;
+}
+
+.apiInfo span {
+    color: #666;
+}
+
+.simpleTable {
+    margin-bottom: 50px
+}
+
+.simpleTable .linep {
+    font-size: 14px;
+    font-weight: 700;
+    color: #555;
+    padding-left: 14px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 18px;
+    position: relative
+}
+
+.simpleTable .linep::before {
+    content: '';
+    width: 4px;
+    height: 16px;
+    background: #00aeff;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.api-table {
+    width: 100%;
+    font-size: 12px;
+    border: 1px solid #e7e7e7;
+    text-align: left
+}
+
+.api-table th {
+    border-bottom: 1px solid #e7e7e7;
+    background: #fbfbfb;
+    color: #999;
+    font-weight: 400;
+    line-height: 32px
+}
+
+.api-table td {
+    border-bottom: 1px solid #e7e7e7;
+    color: #666;
+    line-height: 20px;
+    padding: 6px 0
+}
+
+.api-table td a {
+    color: #00aeff
+}
+
+.simpleTable pre {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 12px
+}
